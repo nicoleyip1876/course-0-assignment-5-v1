@@ -6,10 +6,8 @@ float get_temperature(int input) {
   return input * 1;
 }
 
-float get_temperature(float input) {
-  return input * 100;
-}
-
 int main() {
-  cout << "the temperature should be 6: " << get_temperature(6.0);
+  int temp = 6;
+  cout << "the temperature should be 6: " << get_temperature(temp) << endl;
+  return 0;
 }

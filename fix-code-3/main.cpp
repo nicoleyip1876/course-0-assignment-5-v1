@@ -2,13 +2,13 @@
 #include <string>
 using namespace std;
 
-string add prefix(const string input) {
-  return "pre" + s;
+string add_prefix(const string input) {
+  return "pre" + input;
 }
 
 int main() {
-  string s;
+  string word;
   cout << "Please type a word: ";
-  cin >> s;
-  cout << "Your word with pre added is: " << add prefix(s);
+  cin >> word;
+  cout << "Your word with pre added is: " << add_prefix(word);
 }

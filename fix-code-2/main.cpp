@@ -7,5 +7,7 @@ string get_temperature() {
 }
 
 int main() {
-  int temp = get_temperature();
+  string temp = get_temperature();
+  cout << temp;
+  return 0;
 }
